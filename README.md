@@ -25,3 +25,8 @@ We use download links of two out-of-distributin datasets from [odin-pytorch](htt
   --dataset = name of in-distribution (svhn or cifar10) \
   --out_dataset = name of out-of-distribution (svhn, cifar10, lsun or imagenet) \
   --pre_trained_net = path to pre_trained_net
+
+##How I run on my server
+
+python run_cross_entropy.py --dataroot /scratch/GAN/Confident_classifier/src/oodata/Imagenet_resize.tar.gz
+
